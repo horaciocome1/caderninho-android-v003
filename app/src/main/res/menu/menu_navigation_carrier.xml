@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_requests_carrier"
+        android:icon="@drawable/car_pickup"
+        android:title="Pedidos" />
+
+    <item
+        android:id="@+id/navigation_notifications_carrier"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notificacoes" />
+
+    <item
+        android:id="@+id/navigation_costumers_and_reviews_carrier"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="Clientes" />
+
+    <item
+        android:id="@+id/navigation_profile_carrier"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Perfil" />
+
+</menu>

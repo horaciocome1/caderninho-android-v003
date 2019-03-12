@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+    
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:theme="@style/MyAppBarTheme">-->
+        <!---->
+        <!--&lt;!&ndash;<android.support.v7.widget.Toolbar&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/fragment_store_toolbar"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="?attr/actionBarSize"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:popupTheme="@style/ThemeOverlay.AppCompat.Light"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:theme="@style/MyToolbarTheme"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:minHeight="?attr/actionBarSize"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;&ndash;&gt;-->
+    <!--&lt;!&ndash;</android.support.design.widget.AppBarLayout>&ndash;&gt;-->
+    
+    <ScrollView
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        
+        
+    
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:orientation="vertical">
+        
+            <!--<android.support.v4.view.PagerTabStrip-->
+                <!--android:id="@+id/fragment_store_products_pagertabstrip"-->
+                <!--android:layout_width = "match_parent"-->
+                <!--android:layout_height = "wrap_content" />-->
+        <!---->
+            <!--<android.support.v4.view.ViewPager-->
+                <!--android:id = "@+id/fragment_store_producs_viewpager"-->
+                <!--android:layout_width = "match_parent"-->
+                <!--android:layout_height = "wrap_content"-->
+                <!--android:layout_marginTop = "20dp" />-->
+    
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</android.support.design.widget.CoordinatorLayout>

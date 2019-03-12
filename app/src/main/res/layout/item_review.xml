@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/item_review_client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:id="@+id/item_review_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_alignBaseline="@+id/item_review_client_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textSize="12sp"
+        android:textColor="@color/secondary_text"/>
+
+    <RatingBar
+        android:id="@+id/item_review_ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:isIndicator="true"
+        android:layout_alignLeft="@id/item_review_client_name"
+        android:layout_alignStart="@id/item_review_client_name"
+        android:layout_below="@id/item_review_comment"
+        android:layout_marginTop="4dp"
+        android:numStars="5"
+        android:stepSize="0.01"/>
+
+    <TextView
+        android:id="@+id/item_review_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="@color/secondary_text"
+        android:layout_alignLeft="@id/item_review_client_name"
+        android:layout_alignStart="@id/item_review_client_name"
+        android:layout_below="@id/item_review_client_name"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/divider"
+        android:layout_below="@id/item_review_ratingbar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>

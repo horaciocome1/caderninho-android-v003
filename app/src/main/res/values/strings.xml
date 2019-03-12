@@ -1,0 +1,35 @@
+<resources>
+    <string name = "app_name">Endora</string>
+    <string name = "title_home">Home</string>
+    <string name = "title_dashboard">Dashboard</string>
+    <string name = "title_notifications">Notifications</string>
+    <string name = "metical">(MT)</string>
+    <string name = "pago">Pago</string>
+    <string name = "em_divida">Em divida</string>
+    
+    <string-array name = "purchases_dates_spinner_data">
+        <item>Hoje</item>
+        <item>Esta semana</item>
+        <item>Este mes</item>
+        <item>Este ano</item>
+        <item>Todas</item>
+    </string-array>
+    <string-array name = "requests_spinner_data">
+        <item>Pendentes</item>
+        <item>Confirmados</item>
+    </string-array>
+    <string-array name = "sample_caregories">
+        <item>Todas</item>
+        <item>Estetica ou cosmeticos</item>
+        <item>Comidas ou bebidas</item>
+        <item>Vestuario</item>
+        <item>Mobilia</item>
+        <item>Imoveis</item>
+        <item>Construcao</item>
+        <item>Electro-domesticos</item>
+        <item>Automoveis ou autocarros</item>
+    </string-array>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_blank_fragment">Hello blank fragment</string>
+</resources>
